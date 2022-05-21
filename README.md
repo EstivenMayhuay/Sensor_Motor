@@ -38,4 +38,18 @@ Por el lado, de los **leds** serán utilizados como **indicadores del nivel de a
 
 ![prototipo 1](./images/prototipo-1.jpg)
 
-Una vez el prototipo haya sido probado procedemos a unir todo en una caja y cambiando el foco y conectarlo con el Motor de Agua. Para ello se tiene una serie de videos que podrán visualizar en la siguiente página web.
+A continuación puedes ver los videos en los siguientes enlaces:
+
+- <a href="https://photos.app.goo.gl/N4d4sAgYzijdLjs77" target="_blank">Prototipo Versión 1</a>
+- <a href="https://photos.app.goo.gl/sG4D5LmS6tSad1cR7" target="_blank">Prototipo Versión 2</a>
+- <a href="https://photos.app.goo.gl/X8pgdvEnriMpY8ow6" target="_blank">Prototipo Versión 3</a>
+
+> **Te recomiendo poder visualizar el artículo de Motor Sensor que tenemos en el siguiente link <a href="https://photos.app.goo.gl/X8pgdvEnriMpY8ow6" target="_blank">artículo Sensor Motor</a>**
+
+Una vez el prototipo haya sido probado procedemos a unir todo en una caja y cambiando el foco y conectarlo con el Motor de Agua. Para ello puedes visitar los siguientes videos:
+
+- <a href="https://photos.app.goo.gl/Rt6ZkvcJ3gvi6vANA" target="_blank">Etapa 1 Sensor Motor</a>
+- <a href="https://photos.app.goo.gl/DKRVKwXbf42iD6An6" target="_blank">Etapa 2 Sensor Motor</a>
+- <a href="https://photos.app.goo.gl/EqfdcVMevNAz9zgz8" target="_blank">Etapa 3 Sensor Motor</a>
+
+> **Muy bien llego el momento de compartirte el link: [Código Sensor Motor](./sensormotor.ino)**
