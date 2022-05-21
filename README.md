@@ -44,7 +44,7 @@ A continuación puedes ver los videos en los siguientes enlaces:
 - <a href="https://photos.app.goo.gl/sG4D5LmS6tSad1cR7" target="_blank">Prototipo Versión 2</a>
 - <a href="https://photos.app.goo.gl/X8pgdvEnriMpY8ow6" target="_blank">Prototipo Versión 3</a>
 
-> **Te recomiendo poder visualizar el artículo de Motor Sensor que tenemos en el siguiente link <a href="https://photos.app.goo.gl/X8pgdvEnriMpY8ow6" target="_blank">artículo Sensor Motor</a>**
+> **Te recomiendo poder visualizar el artículo de Motor Sensor que tenemos en el siguiente link <a href="https://docs.google.com/document/d/1LZh7AD2zAPLYuGrPkCb-wTpeIQNHzUtp/edit?usp=sharing&ouid=100122233230064323524&rtpof=true&sd=true" target="_blank">artículo Sensor Motor</a>**
 
 Una vez el prototipo haya sido probado procedemos a unir todo en una caja y cambiando el foco y conectarlo con el Motor de Agua. Para ello puedes visitar los siguientes videos:
 
