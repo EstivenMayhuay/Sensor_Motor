@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sensor Motor</title>
+    <link rel="shortcut icon" href="./images/arduino.svg" type="image/png" />
+    <link rel="stylesheet" href="./main.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title title--white">Sensor Motor</h1>
+    </header>
+
+    <main class="contentArticle">
+      <section class="problem">
+        <p class="image banner">
+          <img
+            src="./images/arduino.svg"
+            alt="icon arduino"
+            class="coverImage"
+          />
+        </p>
+
+        <h2 class="title">Problemática</h2>
+
+        <p class="paragraph">
+          En el A.H. Los ángeles existe la
+          <strong>falta de agua potable </strong> la cual afecta actualmente a
+          <strong>más de 10 familias</strong> que necesitan de este recurso
+          primordial para poder sobrevivir.
+        </p>
+
+        <p class="paragraph">
+          Por lo tanto, la mayoría de familias llenan su agua mediante
+          <strong>galones, botellas y ollas</strong> y otras familias son
+          afortunadas de tener un <strong>Motor de Agua</strong>, el cual es
+          abastecido desde una pileta a
+          <strong>200 metros de distancia de cada familia</strong>, el llenado
+          de agua con el motor tiene un
+          <strong>estimado de 3 a 4 horas</strong> y necesita de dos personas
+          que los supervisen
+          <strong>una que vigile el tanque de agua</strong>
+          y <strong>otra que vigile el motor</strong>, ya que pueden ocurrir dos
+          cosas:
+        </p>
+      </section>
+
+      <section class="tools">
+        <h2 class="title">Implementos</h2>
+
+        <p class="paragraph">
+          Este proyecto se enfocará en resolver la problemática con el motor de
+          agua. Ahora veamos que implementos se usan para el día a día para
+          empezar a llenar:
+        </p>
+
+        <ul class="list">
+          <li class="list__item">Cilindro</li>
+          <li class="list__item">Manguera de 250 metros</li>
+          <li class="list__item">Tanque de 1100L</li>
+          <li class="list__item">Cable eléctrico de 300 metros</li>
+          <li class="list__item">Motor de Agua</li>
+        </ul>
+      </section>
+
+      <section class="solution">
+        <h2 class="title">Solución</h2>
+
+        Empezaremos con el prototipo usando las siguientes tecnologías:
+        <ul class="list">
+          <li class="list__item">Arduino UNO</li>
+          <li class="list__item">Lenguaje de Programación C++</li>
+          <li class="list__item">Leds</li>
+          <li class="list__item">Módulo Relé</li>
+          <li class="list__item">Sensor Ultrasónico HC-SR04</li>
+          <li class="list__item">Foco (Simula ser el Motor de Agua)</li>
+        </ul>
+
+        <p class="paragraph">
+          Ahora explicaremos el funcionamiento de la solución. El Sensor
+          Ultrasónico será el encargado de medir el nivel del agua dentro el
+          cilindro, si se
+          <strong>encuentra muy cerca del sensor se activara el foco</strong> el
+          cual simula ser el motor de agua y si está a
+          <strong>1.20 metros de distancia</strong> el foco se apaga.
+        </p>
+
+        <p class="paragraph">
+          Ahora bien, el Módulo Relé será el encargado de
+          <strong>controlar el flujo de la electricidad</strong> y el cual según
+          la distancia del agua que marca el Sensor Ultrasónico se activara.
+        </p>
+
+        <p class="paragraph">
+          Por el lado, de los <strong>leds</strong> serán utilizados como
+          <strong>indicadores del nivel de agua</strong>
+        </p>
+
+        <p class="image">
+          <img
+            src="./images/prototipo-1.jpg"
+            alt="prototipo 1"
+            class="coverImage"
+          />
+        </p>
+
+        <p class="paragraph">
+          A continuación puedes ver los videos en los siguientes enlaces:
+        </p>
+
+        <ul class="list">
+          <li class="list__item">
+            <a
+              href="https://photos.app.goo.gl/N4d4sAgYzijdLjs77"
+              target="_blank"
+              >Prototipo Versión 1</a
+            >
+          </li>
+          <li class="list__item">
+            <a
+              href="https://photos.app.goo.gl/sG4D5LmS6tSad1cR7"
+              target="_blank"
+              >Prototipo Versión 2</a
+            >
+          </li>
+          <li class="list__item">
+            <a
+              href="https://photos.app.goo.gl/X8pgdvEnriMpY8ow6"
+              target="_blank"
+              >Prototipo Versión 3</a
+            >
+          </li>
+        </ul>
+
+        <p class="paragraph">
+          <strong
+            >Te recomiendo poder visualizar el artículo de Motor Sensor que
+            tenemos en el siguiente link
+            <a
+              href="https://docs.google.com/document/d/1LZh7AD2zAPLYuGrPkCb-wTpeIQNHzUtp/edit?usp=sharing&ouid=100122233230064323524&rtpof=true&sd=true"
+              target="_blank"
+              >artículo Sensor Motor</a
+            ></strong
+          >
+        </p>
+
+        <p class="paragraph">
+          Una vez el prototipo haya sido probado procedemos a unir todo en una
+          caja y cambiando el foco y conectarlo con el Motor de Agua. Para ello
+          puedes visitar los siguientes videos:
+        </p>
+
+        <ul class="list">
+          <li class="list__item">
+            <a
+              href="https://photos.app.goo.gl/Rt6ZkvcJ3gvi6vANA"
+              target="_blank"
+              >Etapa 1 Sensor Motor</a
+            >
+          </li>
+          <li class="list__item">
+            <a
+              href="https://photos.app.goo.gl/DKRVKwXbf42iD6An6"
+              target="_blank"
+              >Etapa 2 Sensor Motor</a
+            >
+          </li>
+          <li class="list__item">
+            <a
+              href="https://photos.app.goo.gl/EqfdcVMevNAz9zgz8"
+              target="_blank"
+              >Etapa 3 Sensor Motor</a
+            >
+          </li>
+        </ul>
+
+        <p class="paragraph">
+          <strong>Muy bien llego el momento de ver el código</strong>
+        </p>
+
+        <p class="paragraph">
+          <strong>
+            Muy bien llego el momento de compartirte el link:
+            <a
+              href="https://github.com/EstivenMayhuay/Sensor_Motor/blob/main/sensormotor.ino"
+              target="_blank"
+              >Código Sensor</a
+            >
+          </strong>
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
